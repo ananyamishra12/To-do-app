@@ -18,6 +18,7 @@ const todoReducers =  (state= initialData, action)=>{
                 ]
             }
         }
+        default: return state;
     }
 }
 
